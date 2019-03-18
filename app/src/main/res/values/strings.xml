@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tonic</string>
+    <string name="boutonJouer">Jouer</string>
+    <string name="boutonCreerBeacon">Créer un beacon</string>
+    <string name="explicationsJouer">Vous avez un beacon à proximité ? Cliquez sur Jouer et amusez-vous en bougeant votre appareil !</string>
+    <string name="todo">TODO</string>
+    <string name="explicationsStop">Vous pouvez arrêter le son en tournant votre appareil vers le sol ou en appuyant sur le bouton de retour</string>
+    <string name="le_logo">le logo</string>
+    <string name="explicationsBeacon">Cette application nécessite un beacon pour fonctionner. Si vous n\'en avez pas à proxmité, vous pouvez utiliser votre appareil comme un beacon et utiliser un second appareil pour jouer.</string>
+    <string name="beaconOK">Cet appareil se comporte maintenant comme un beacon. Vous pouvez désormais un autre  appareil pour jouer de la musique !</string>
+</resources>

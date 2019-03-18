@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Accueil">
+
+    <ImageView
+        android:id="@+id/logo1"
+        android:layout_width="220dp"
+        android:layout_height="213dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:src="@drawable/logo_tonic_transparent" />
+
+    <TextView
+        android:id="@+id/explicationsBeacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/explicationsBeacon"
+        app:layout_constraintTop_toBottomOf="@id/logo1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#ff444444"
+        />
+
+    <Button
+        android:id="@+id/buttonBeacon"
+        android:layout_width="190dp"
+        android:layout_height="72dp"
+        android:text="@string/boutonCreerBeacon"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ff444444"
+        android:onClick="tapButtonBeacon"
+        app:layout_constraintTop_toBottomOf="@id/explicationsBeacon"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/explicationsJouer"
+        android:textColor="#ff444444"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="72dp"
+        android:text="@string/boutonJouer"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:background="#ff444444"
+        android:onClick="tapButtonJouer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="20dp"/>
+
+</android.support.constraint.ConstraintLayout>
