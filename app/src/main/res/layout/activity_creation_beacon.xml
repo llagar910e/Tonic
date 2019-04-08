@@ -18,12 +18,14 @@
 
     <TextView
         android:id="@+id/beaconOK"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/logo1"
+        android:justificationMode="inter_word"
+        android:layout_marginHorizontal="15dp"
         android:text="@string/beaconOK"
-        android:textSize="30sp"/>
+        android:textSize="20sp"/>
 
 </android.support.constraint.ConstraintLayout>

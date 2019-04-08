@@ -7,6 +7,8 @@ import org.altbeacon.beacon.BeaconTransmitter;
 
 import java.util.Arrays;
 
+
+//Utilisée par l'activité CreationBeacon
 public class MyBeacon {
 
     BeaconParser beaconParser;

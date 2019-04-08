@@ -6,12 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+
+//Propose à l'utilisateur de créer un beacon ou de commencer à jouer
 public class Accueil extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accueil);
+
     }
 
     public void tapButtonJouer(View view){
